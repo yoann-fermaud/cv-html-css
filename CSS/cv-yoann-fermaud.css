@@ -66,6 +66,7 @@ header {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
     z-index: 1;
+    transition: .3s;
 }
 
 .row ul li a::after {
@@ -81,7 +82,6 @@ header {
     backdrop-filter: blur(5px);
     /* -webkit-backdrop-filter: blur(50px); */
     z-index: -1;
-    transition: 0.3s;
 }
 
 .row ul li a:hover {
@@ -103,7 +103,6 @@ header {
     border-radius: 25px;
     z-index: -1;
     transform: rotate(10deg);
-    transition: 0.3s;
 }
 
 .row ul li:nth-child(2) a::before {
