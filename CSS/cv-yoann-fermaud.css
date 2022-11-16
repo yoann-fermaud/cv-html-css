@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #252525;
+    background-color: #151515;
 }
 
 header {
     padding: 25px;
-    background-color: #151515;
+    background-color: #050505;
 }
 
 .nameBoxes p {
@@ -26,7 +26,6 @@ header {
     -webkit-text-stroke: 1px #fff;
     background: url(../img/back.png);
     -webkit-background-clip: text;
-    background-position: 0 0;
     animation: back 20s linear infinite;
 }
 
@@ -203,7 +202,7 @@ header {
 
 footer {
     margin-top: 40px;
-    background-color: #151515;
+    background-color: #050505;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -213,7 +212,7 @@ footer {
 .wrapper{
     width: 400px;
     height: 150px;
-    /* position: center; */
+    display: flex;
     background-color: #ff2c55;
     left: 50%;
     top: 50%;
@@ -223,7 +222,6 @@ footer {
 .circle{
     width: 40px;
     height: 40px;
-    /* margin-top: 2px; */
     position: absolute;
     border-radius: 50%;
     background-color: #fff;
@@ -276,15 +274,15 @@ footer {
 
 .wrapper span{
     margin-top: 120px;
-    padding-left: 10px;
-    position: relative;
-    /* text-align: center; */
+    padding: 0 0 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
     top: 80px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 12px;
     color: #fff;
-    /* background-color: orangered; */
     left: 15%;
 }
 
